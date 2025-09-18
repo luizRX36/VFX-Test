@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EJERCICIOENTREGA1_Panner
+  m_Shader: {fileID: 4800000, guid: 745744c388fc3014fa5fbca661235a5a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _OPERATIONSELECTOR_MULTIPLY_NOISES
+  - _RGB_DISTORSION_SELECTOR_NOISE_R
+  - _TEXTURE1_CHANNEL_R
+  - _TEXTURE2_CHANNEL_B
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistorsionNoise:
+        m_Texture: {fileID: 2800000, guid: 4811f8c8a4cd17c4da021a04e6e0d0ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Packed:
+        m_Texture: {fileID: 2800000, guid: d361493957c22d64b8a923eb4cc2dcaf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _ColorFromParticle: 0
+    - _Distorsion_Amount: 0.168
+    - _GeneralOpacity: 1
+    - _Intensity: 20
+    - _OpacityOffset: 0
+    - _OpacityTexture1: 1
+    - _OpacityTexture2: 1
+    - _OperationSelector: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RGB_Distorsion_Selector: 0
+    - _ReceiveShadows: 1
+    - _Texture1: 0
+    - _Texture1_Contrast: 1
+    - _Texture1_Offset: 0
+    - _Texture2: 2
+    - _Texture2_Contrast: 1
+    - _Texture2_Offset: 0
+    - _VertexColorVisualizator: 0
+    - _X_Speed_DistorsionNoise: 0.15
+    - _X_Speed_Texture1: 0.2
+    - _X_Speed_Texture2: 0
+    - _X_Tilling_DistorsionNoise: 1
+    - _X_Tilling_Texture1: 1
+    - _X_Tilling_Texture2: 1
+    - _Y_Speed_DistorsionNoise: 0
+    - _Y_Speed_Texture1: 0.1
+    - _Y_Speed_Texture2: 0
+    - _Y_Tilling_DistorsionNoise: 1
+    - _Y_Tilling_Texture1: 1
+    - _Y_Tilling_Texture2: 1
+    m_Colors:
+    - _BaseColor1: {r: 0.15966532, g: 0.20634094, b: 0.4339623, a: 1}
+    - _BaseColor2: {r: 0.7660377, g: 0.2413741, b: 0.2413741, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
