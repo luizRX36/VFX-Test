@@ -26,9 +26,9 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _OPERATION_MULTIPLY
-  - _SELECTORNOISE_D
+  - _SELECTORNOISE_B
   - _SELECTORTEXTURE1_A
-  - _SELECTORTEXTURE2_B
+  - _SELECTORTEXTURE2_D
   m_InvalidKeywords:
   - _SELECTORNODEA_C
   - _SELECTORNODEB_D
@@ -69,22 +69,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionAmount: 0.68
+    - _DistortionAmount: 0.143
     - _NOise_SpeedHorizontal: 0
+    - _NoiseAlpha: 1.882
     - _NoiseSpeedVertical: 0
-    - _Noise_SpeedHorizontal: 0.2
+    - _Noise_SpeedHorizontal: 0.096
     - _OPERATION: 0
-    - _Opacity: 2
+    - _Opacity: 4
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SELECTORNODEA: 2
     - _SELECTORNODEB: 3
-    - _SELECTORNOISE: 3
+    - _SELECTORNOISE: 1
     - _SELECTORTEXTURE1: 0
-    - _SELECTORTEXTURE2: 1
+    - _SELECTORTEXTURE2: 3
     - _SpeedHorizontal: 0.5
-    - _SpeedVertical: 0.45
-    - _intensity: 11.31
+    - _SpeedVertical: 0
+    - _intensity: 113.7
     m_Colors:
     - _Color: {r: 0, g: 0.79462504, b: 1, a: 1}
     - _Color1: {r: 0.16078432, g: 0.20784314, b: 0.43529412, a: 1}

@@ -70,8 +70,8 @@ Material:
     - _Texture2_Offset: 0
     - _VertexColorVisualizator: 0
     - _X_Speed_DistorsionNoise: 0.15
-    - _X_Speed_Texture1: 0.2
-    - _X_Speed_Texture2: 0
+    - _X_Speed_Texture1: 0.5
+    - _X_Speed_Texture2: 0.1
     - _X_Tilling_DistorsionNoise: 1
     - _X_Tilling_Texture1: 1
     - _X_Tilling_Texture2: 1
