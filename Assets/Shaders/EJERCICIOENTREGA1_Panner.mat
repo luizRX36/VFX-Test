@@ -14,7 +14,7 @@ Material:
   m_ValidKeywords:
   - _OPERATIONSELECTOR_MULTIPLY_NOISES
   - _RGB_DISTORSION_SELECTOR_NOISE_R
-  - _TEXTURE1_CHANNEL_R
+  - _TEXTURE1_CHANNEL_G
   - _TEXTURE2_CHANNEL_B
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -62,7 +62,7 @@ Material:
     - _QueueOffset: 0
     - _RGB_Distorsion_Selector: 0
     - _ReceiveShadows: 1
-    - _Texture1: 0
+    - _Texture1: 1
     - _Texture1_Contrast: 1
     - _Texture1_Offset: 0
     - _Texture2: 2

@@ -26,7 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _OPERATION_MULTIPLY
-  - _SELECTORNOISE_B
+  - _SELECTORNOISE_A
   - _SELECTORTEXTURE1_A
   - _SELECTORTEXTURE2_D
   m_InvalidKeywords:
@@ -52,7 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTexture:
-        m_Texture: {fileID: 2800000, guid: d9b996306b337db42bcb03b233fc0bd3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5a6e80c7d55ae5445bf25ebf967bc78e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Packed:
+        m_Texture: {fileID: 2800000, guid: d361493957c22d64b8a923eb4cc2dcaf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -69,23 +73,37 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionAmount: 0.143
+    - _ColorFromParticle: 0
+    - _DistortionAmount: 0.16
+    - _GeneralOpacity: 0.5
     - _NOise_SpeedHorizontal: 0
-    - _NoiseAlpha: 1.882
+    - _NoiseAlpha: 1
     - _NoiseSpeedVertical: 0
-    - _Noise_SpeedHorizontal: 0.096
+    - _Noise_SpeedHorizontal: 0.15
     - _OPERATION: 0
-    - _Opacity: 4
+    - _Opacity: 1
+    - _OpacityGeneral: 1
+    - _OpacityTexture1: 1
+    - _OpacityTexture2: 0.652
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SELECTORNODEA: 2
     - _SELECTORNODEB: 3
-    - _SELECTORNOISE: 1
+    - _SELECTORNOISE: 0
     - _SELECTORTEXTURE1: 0
     - _SELECTORTEXTURE2: 3
     - _SpeedHorizontal: 0.5
-    - _SpeedVertical: 0
-    - _intensity: 113.7
+    - _SpeedVertical: 0.1
+    - _Texture1Contrast: 5.6
+    - _Texture1Offset: 0
+    - _Texture1SpeedHorizontal: 0.5
+    - _Texture1SpeedVertical: 0.1
+    - _Texture2Contrast: 1
+    - _Texture2Offset: 0
+    - _Texture2SpeedHorizontal: 0.1
+    - _Texture2SpeedVertical: 0
+    - _VertexColorVisualizator: 0
+    - _intensity: 20
     m_Colors:
     - _Color: {r: 0, g: 0.79462504, b: 1, a: 1}
     - _Color1: {r: 0.16078432, g: 0.20784314, b: 0.43529412, a: 1}
@@ -93,12 +111,12 @@ Material:
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _TilingX: {r: 1, g: 1, b: 0, a: 0}
     - _TilingY: {r: 1, g: 1, b: 0, a: 0}
-    - _XTilingNoise1: {r: 2, g: 2, b: 0, a: 0}
+    - _XTilingNoise1: {r: 1, g: 1, b: 0, a: 0}
     - _XTilingTexture1: {r: 1, g: 1, b: 0, a: 0}
     - _XTilingTexture2: {r: 1, g: 1, b: 0, a: 0}
     - _YTilingNoise1: {r: 1, g: 1, b: 0, a: 0}
     - _YTilingTexture1: {r: 1, g: 1, b: 0, a: 0}
     - _YTilingTexture2: {r: 1, g: 1, b: 0, a: 0}
-    - _offset: {r: 1, g: 0, b: 0, a: 0}
+    - _offset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
