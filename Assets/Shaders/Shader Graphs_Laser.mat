@@ -25,11 +25,12 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _OPERATION_MULTIPLY
+  - _OPERATION_SELECTOR_MULTIPLY
   - _SELECTORNOISE_A
   - _SELECTORTEXTURE1_A
   - _SELECTORTEXTURE2_D
   m_InvalidKeywords:
+  - _OPERATION_MULTIPLY
   - _SELECTORNODEA_C
   - _SELECTORNODEB_D
   m_LightmapFlags: 4
@@ -75,15 +76,16 @@ Material:
     m_Floats:
     - _ColorFromParticle: 0
     - _DistortionAmount: 0.16
-    - _GeneralOpacity: 0.5
+    - _GeneralOpacity: 0.137
     - _NOise_SpeedHorizontal: 0
     - _NoiseAlpha: 1
     - _NoiseSpeedVertical: 0
     - _Noise_SpeedHorizontal: 0.15
     - _OPERATION: 0
+    - _OPERATION_SELECTOR: 0
     - _Opacity: 1
     - _OpacityGeneral: 1
-    - _OpacityTexture1: 1
+    - _OpacityTexture1: 0.541
     - _OpacityTexture2: 0.652
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -94,7 +96,7 @@ Material:
     - _SELECTORTEXTURE2: 3
     - _SpeedHorizontal: 0.5
     - _SpeedVertical: 0.1
-    - _Texture1Contrast: 5.6
+    - _Texture1Contrast: 1
     - _Texture1Offset: 0
     - _Texture1SpeedHorizontal: 0.5
     - _Texture1SpeedVertical: 0.1
@@ -103,8 +105,10 @@ Material:
     - _Texture2SpeedHorizontal: 0.1
     - _Texture2SpeedVertical: 0
     - _VertexColorVisualizator: 0
-    - _intensity: 20
+    - _intensity: 46.57
     m_Colors:
+    - _BaseColor1: {r: 1, g: 0, b: 0, a: 1}
+    - _BaseColor2: {r: 0, g: 0.43126437, b: 1, a: 1}
     - _Color: {r: 0, g: 0.79462504, b: 1, a: 1}
     - _Color1: {r: 0.16078432, g: 0.20784314, b: 0.43529412, a: 1}
     - _Color2: {r: 0.7647059, g: 0.24313726, b: 0.24313726, a: 1}
@@ -114,9 +118,11 @@ Material:
     - _XTilingNoise1: {r: 1, g: 1, b: 0, a: 0}
     - _XTilingTexture1: {r: 1, g: 1, b: 0, a: 0}
     - _XTilingTexture2: {r: 1, g: 1, b: 0, a: 0}
+    - _X_Tilling_DistorsionNoise: {r: 1, g: 1, b: 0, a: 0}
     - _YTilingNoise1: {r: 1, g: 1, b: 0, a: 0}
     - _YTilingTexture1: {r: 1, g: 1, b: 0, a: 0}
     - _YTilingTexture2: {r: 1, g: 1, b: 0, a: 0}
+    - _Y_Tilling_DistorsionNoise: {r: 1, g: 1, b: 0, a: 0}
     - _offset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
