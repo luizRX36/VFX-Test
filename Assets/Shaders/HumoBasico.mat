@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8544934519327521435
+--- !u!114 &-1091318214948920377
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,15 +20,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lluvia
-  m_Shader: {fileID: -6465566751694194690, guid: 986f3d893b4ec4f4e8c2b2dd554f7eaa, type: 3}
+  m_Name: HumoBasico
+  m_Shader: {fileID: -6465566751694194690, guid: 40d376883edaba94c9461668f5b9a150, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _OPERATION_SELECTOR_MULTIPLY
-  - _SELECTORNOISE_A
-  - _SELECTORTEXTURE1_A
-  - _SELECTORTEXTURE2_A
+  - _TEXTUREENUM_A
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -41,12 +38,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _NoiseTexture:
-        m_Texture: {fileID: 2800000, guid: d9b996306b337db42bcb03b233fc0bd3, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture_Packed:
-        m_Texture: {fileID: 2800000, guid: c1c9a4250f028634e8be6b8bce9f3b2a, type: 3}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 4e13bbc3d99ac93488783d018106c7ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -63,39 +56,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorFromParticle: 0
-    - _DistortionAmount: 0
+    - _ColorFromParticle: 1
     - _GeneralOpacity: 1
-    - _NoiseSpeedVertical: 0
-    - _Noise_SpeedHorizontal: 0
-    - _OPERATION_SELECTOR: 0
-    - _OpacityContrast: 1
+    - _Intensity: 1
+    - _OpacityContrast: 0.16
     - _OpacityOffset: 0
-    - _OpacityTexture1: 1
-    - _OpacityTexture2: 1
+    - _OpacityTexture: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SELECTORNOISE: 0
-    - _SELECTORTEXTURE1: 0
-    - _SELECTORTEXTURE2: 0
-    - _Texture1Contrast: 1
-    - _Texture1Offset: 0
-    - _Texture1SpeedHorizontal: 0
-    - _Texture1SpeedVertical: 0
-    - _Texture2Contrast: 1
-    - _Texture2Offset: 0
-    - _Texture2SpeedHorizontal: 0
-    - _Texture2SpeedVertical: 0
-    - _VertexColorVisualizator: 0
-    - _intensity: 1
+    - _TEXTUREENUM: 0
+    - _TextureContrast: 4.21
+    - _TextureOffset: 0.05
+    - _VertexColorVisualitation: 0
+    - _XSpeedTexture: 0
+    - _Xtilling: 1
+    - _YSpeedTexture: 0
+    - _YTilling: 1
     m_Colors:
-    - _BaseColor1: {r: 0.051174805, g: 0.4716981, b: 0.33659738, a: 1}
-    - _BaseColor2: {r: 0.068752214, g: 0.45983678, b: 0.9716981, a: 1}
-    - _XTilingTexture1: {r: 1, g: 1, b: 0, a: 0}
-    - _XTilingTexture2: {r: 1, g: 1, b: 0, a: 0}
-    - _X_Tilling_DistorsionNoise: {r: 1, g: 1, b: 0, a: 0}
-    - _YTilingTexture1: {r: 1, g: 1, b: 0, a: 0}
-    - _YTilingTexture2: {r: 1, g: 1, b: 0, a: 0}
-    - _Y_Tilling_DistorsionNoise: {r: 1, g: 1, b: 0, a: 0}
+    - _Color1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color2: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
