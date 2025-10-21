@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: InteriorCobete
+  m_Name: ExteriorCobete
   m_Shader: {fileID: -6465566751694194690, guid: 40d376883edaba94c9461668f5b9a150, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -53,17 +53,17 @@ Material:
     - _CastShadows: 1
     - _ColorFromParticle: 0
     - _Cull: 0
-    - _DistortionAmmount: 0.19
+    - _DistortionAmmount: 0.1
     - _DstBlend: 0
-    - _GeneralOpacity: 1.23
-    - _Intensity: 4.37
+    - _GeneralOpacity: 5.48
+    - _Intensity: 23.23
     - _NoiseXSpeedTexture: 0.5
     - _NoiseXtilling: 1
     - _NoiseYSpeedTexture: 0.5
     - _NoiseYTilling: 1
-    - _OpacityContrast: 0.73
+    - _OpacityContrast: 0.14
     - _OpacityOffset: 0
-    - _OpacityTexture: 2.01
+    - _OpacityTexture: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 1
@@ -75,13 +75,13 @@ Material:
     - _XSpeedTexture: 0
     - _Xtilling: -1
     - _YSpeedTexture: 0
-    - _YTilling: -1.04
+    - _YTilling: -0.92
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
     - _Color1: {r: 0.6415094, g: 0.17659529, b: 0, a: 1}
-    - _Color2: {r: 0.9245283, g: 0.6809066, b: 0.23113208, a: 1}
+    - _Color2: {r: 0.9245283, g: 0.6809066, b: 0.231132, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8029653890072884782

@@ -4701,7 +4701,7 @@
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_RenderFace": 2,
+    "m_RenderFace": 0,
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
@@ -5873,8 +5873,8 @@
     "m_ObjectId": "6b1ac37984c04873bfaa03acad2f38e1",
     "m_Title": "Panneo",
     "m_Position": {
-        "x": -3959.19970703125,
-        "y": -263.9999694824219
+        "x": -3959.0,
+        "y": -263.0
     }
 }
 
@@ -10286,8 +10286,8 @@
     "m_ObjectId": "e049b22570f341ce80ca8cb22de4b2a4",
     "m_Title": "Panneo Noise",
     "m_Position": {
-        "x": -3990.399658203125,
-        "y": 1223.19970703125
+        "x": -3990.0,
+        "y": 1224.0
     }
 }
 

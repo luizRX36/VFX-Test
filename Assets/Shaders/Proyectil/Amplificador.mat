@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: InteriorCobete
+  m_Name: Amplificador
   m_Shader: {fileID: -6465566751694194690, guid: 40d376883edaba94c9461668f5b9a150, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -26,11 +26,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _NoiseTexture:
-        m_Texture: {fileID: 2800000, guid: a5b679efa7035d14cb3a446f2a6bb64d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4811f8c8a4cd17c4da021a04e6e0d0ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: 700d94d63e66587409e934e95139c8cf, type: 3}
+        m_Texture: {fileID: 2800000, guid: 157611d8b72fc834cb4b8825182754cc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -47,44 +47,33 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _CastShadows: 1
     - _ColorFromParticle: 0
-    - _Cull: 0
-    - _DistortionAmmount: 0.19
-    - _DstBlend: 0
-    - _GeneralOpacity: 1.23
-    - _Intensity: 4.37
-    - _NoiseXSpeedTexture: 0.5
+    - _DistortionAmmount: 0
+    - _GeneralOpacity: 1.07
+    - _Intensity: 1.62
+    - _NoiseXSpeedTexture: 0
     - _NoiseXtilling: 1
-    - _NoiseYSpeedTexture: 0.5
+    - _NoiseYSpeedTexture: 0
     - _NoiseYTilling: 1
-    - _OpacityContrast: 0.73
+    - _OpacityContrast: 1.07
     - _OpacityOffset: 0
-    - _OpacityTexture: 2.01
+    - _OpacityTexture: 7.47
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 1
-    - _Surface: 1
     - _TEXTUREENUM: 0
     - _TextureContrast: 1
-    - _TextureOffset: -0.12
+    - _TextureOffset: -0.39
     - _VertexColorVisualitation: 0
-    - _XSpeedTexture: 0
-    - _Xtilling: -1
+    - _XSpeedTexture: 0.22
+    - _Xtilling: 1
     - _YSpeedTexture: 0
-    - _YTilling: -1.04
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
+    - _YTilling: 1
     m_Colors:
-    - _Color1: {r: 0.6415094, g: 0.17659529, b: 0, a: 1}
-    - _Color2: {r: 0.9245283, g: 0.6809066, b: 0.23113208, a: 1}
+    - _Color1: {r: 1, g: 0.85305506, b: 0.72264147, a: 1}
+    - _Color2: {r: 0.21509439, g: 0.21509439, b: 0.21509439, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8029653890072884782
+--- !u!114 &426090356722527044
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

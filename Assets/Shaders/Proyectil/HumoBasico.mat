@@ -38,6 +38,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _NoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture:
         m_Texture: {fileID: 2800000, guid: 4e13bbc3d99ac93488783d018106c7ca, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -56,14 +60,27 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _CastShadows: 1
     - _ColorFromParticle: 1
+    - _Cull: 0
+    - _DistortionAmmount: 0.08
+    - _DstBlend: 0
     - _GeneralOpacity: 1
     - _Intensity: 1
+    - _NoiseXSpeedTexture: 0
+    - _NoiseXtilling: 1
+    - _NoiseYSpeedTexture: 0
+    - _NoiseYTilling: 1
     - _OpacityContrast: 0.16
     - _OpacityOffset: 0
     - _OpacityTexture: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SrcBlend: 1
+    - _Surface: 1
     - _TEXTUREENUM: 0
     - _TextureContrast: 4.21
     - _TextureOffset: 0.05
@@ -72,6 +89,9 @@ Material:
     - _Xtilling: 1
     - _YSpeedTexture: 0
     - _YTilling: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     m_Colors:
     - _Color1: {r: 1, g: 1, b: 1, a: 1}
     - _Color2: {r: 0, g: 0, b: 0, a: 1}
