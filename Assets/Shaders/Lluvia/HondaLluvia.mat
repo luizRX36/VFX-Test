@@ -38,8 +38,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _NoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: c95796f412e2c3543b47621dd53e31d2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 22ab2f8fa20b5944eaf51df582f7a6ac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -57,8 +61,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _ColorFromParticle: 1
+    - _DistortionAmmount: 0
     - _GeneralOpacity: 4
-    - _Intensity: 2
+    - _Intensity: 1
+    - _NoiseXSpeedTexture: 0
+    - _NoiseXtilling: 1
+    - _NoiseYSpeedTexture: 0
+    - _NoiseYTilling: 1
     - _OpacityContrast: 0.29
     - _OpacityOffset: 0
     - _OpacityTexture: 2

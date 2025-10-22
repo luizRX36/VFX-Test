@@ -69,13 +69,13 @@ Material:
     - _SrcBlend: 1
     - _Surface: 1
     - _TEXTUREENUM: 0
-    - _TextureContrast: 1
+    - _TextureContrast: 1.66
     - _TextureOffset: -0.12
     - _VertexColorVisualitation: 0
     - _XSpeedTexture: 0
     - _Xtilling: -1
     - _YSpeedTexture: 0
-    - _YTilling: -1.04
+    - _YTilling: -1.05
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
