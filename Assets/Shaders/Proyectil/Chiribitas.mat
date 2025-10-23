@@ -63,7 +63,7 @@ Material:
     - _ColorFromParticle: 1
     - _DistortionAmmount: 0
     - _GeneralOpacity: 1
-    - _Intensity: 5.29
+    - _Intensity: 8
     - _NoiseXSpeedTexture: 0
     - _NoiseXtilling: 1
     - _NoiseYSpeedTexture: 0
@@ -82,7 +82,7 @@ Material:
     - _YSpeedTexture: 0
     - _YTilling: 1
     m_Colors:
-    - _Color1: {r: 1, g: 1, b: 1, a: 1}
-    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0.8627451, g: 0.72714347, b: 0.23921567, a: 1}
+    - _Color2: {r: 0.7283019, g: 0.42178965, b: 0.03710211, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

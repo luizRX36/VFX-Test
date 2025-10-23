@@ -50,14 +50,14 @@ Material:
     - _ColorFromParticle: 0
     - _DistortionAmmount: 0
     - _GeneralOpacity: 1.07
-    - _Intensity: 1.62
+    - _Intensity: 1.67
     - _NoiseXSpeedTexture: 0
     - _NoiseXtilling: 1
     - _NoiseYSpeedTexture: 0
     - _NoiseYTilling: 1
-    - _OpacityContrast: 1.07
+    - _OpacityContrast: 0.24
     - _OpacityOffset: 0
-    - _OpacityTexture: 7.47
+    - _OpacityTexture: 0.26
     - _QueueControl: 0
     - _QueueOffset: 0
     - _TEXTUREENUM: 0
@@ -67,9 +67,9 @@ Material:
     - _XSpeedTexture: 0.22
     - _Xtilling: 1
     - _YSpeedTexture: 0
-    - _YTilling: 1
+    - _YTilling: -1.1
     m_Colors:
-    - _Color1: {r: 1, g: 0.85305506, b: 0.72264147, a: 1}
+    - _Color1: {r: 1, g: 0.7294118, b: 0.015686275, a: 1}
     - _Color2: {r: 0.21509439, g: 0.21509439, b: 0.21509439, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
