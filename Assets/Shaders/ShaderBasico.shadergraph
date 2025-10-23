@@ -1893,7 +1893,7 @@
     "m_Value": 0.0,
     "m_FloatType": 1,
     "m_RangeValues": {
-        "x": 0.0,
+        "x": -10.0,
         "y": 10.0
     },
     "m_SliderType": 0,
@@ -5873,7 +5873,7 @@
     "m_ObjectId": "6b1ac37984c04873bfaa03acad2f38e1",
     "m_Title": "Panneo",
     "m_Position": {
-        "x": -3959.0,
+        "x": -3958.999755859375,
         "y": -263.0
     }
 }
@@ -6016,7 +6016,7 @@
     "m_Value": 0.0,
     "m_FloatType": 1,
     "m_RangeValues": {
-        "x": 0.0,
+        "x": -10.0,
         "y": 10.0
     },
     "m_SliderType": 0,
@@ -10286,7 +10286,7 @@
     "m_ObjectId": "e049b22570f341ce80ca8cb22de4b2a4",
     "m_Title": "Panneo Noise",
     "m_Position": {
-        "x": -5102.0,
+        "x": -5101.99951171875,
         "y": 1197.9998779296875
     }
 }
