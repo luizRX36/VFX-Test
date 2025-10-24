@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HelixPrueba
-  m_Shader: {fileID: -6465566751694194690, guid: 40d376883edaba94c9461668f5b9a150, type: 3}
+  m_Name: Helix Mat2
+  m_Shader: {fileID: -6465566751694194690, guid: 2923a8b5a8705fb4e8fd2b3ce796a9c9, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -21,7 +21,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _XSpeedTexture
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -49,7 +49,7 @@ Material:
     m_Floats:
     - _ColorFromParticle: 1
     - _DistortionAmmount: 0
-    - _GeneralOpacity: 1
+    - _GeneralOpacity: 2.42
     - _Intensity: 48.4
     - _NoiseXSpeedTexture: 0
     - _NoiseXtilling: 1
@@ -57,7 +57,7 @@ Material:
     - _NoiseYTilling: 1
     - _OpacityContrast: 1
     - _OpacityOffset: 0
-    - _OpacityTexture: 8.26
+    - _OpacityTexture: 1.42
     - _QueueControl: 0
     - _QueueOffset: 0
     - _TEXTUREENUM: 0
@@ -66,14 +66,14 @@ Material:
     - _VertexColorVisualitation: 0
     - _XSpeedTexture: 0
     - _Xtilling: 0.2
-    - _YSpeedTexture: 0
+    - _YSpeedTexture: -0.5
     - _YTilling: 1
     m_Colors:
-    - _Color1: {r: 0.15966538, g: 0.8679245, b: 0.16568851, a: 1}
-    - _Color2: {r: 0.20258805, g: 0.9716981, b: 0.0779192, a: 1}
+    - _Color1: {r: 0, g: 0, b: 0, a: 1}
+    - _Color2: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1676661757163485402
+--- !u!114 &5362713112851530889
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
