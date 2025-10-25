@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HondaLluvia
-  m_Shader: {fileID: -6465566751694194690, guid: 2923a8b5a8705fb4e8fd2b3ce796a9c9, type: 3}
+  m_Name: ManchaMat
+  m_Shader: {fileID: -6465566751694194690, guid: 40d376883edaba94c9461668f5b9a150, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -43,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: 9c6bf3430d20bee459d6e7ddc81124b8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 830108fa74c949d438ae064d409c3201, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -62,20 +62,20 @@ Material:
     m_Floats:
     - _ColorFromParticle: 1
     - _DistortionAmmount: 0
-    - _GeneralOpacity: 0
-    - _Intensity: 2.83
+    - _GeneralOpacity: 2.41
+    - _Intensity: 0.73
     - _NoiseXSpeedTexture: 0
     - _NoiseXtilling: 1
     - _NoiseYSpeedTexture: 0
     - _NoiseYTilling: 1
-    - _OpacityContrast: 1.09
+    - _OpacityContrast: 0.29
     - _OpacityOffset: 0
-    - _OpacityTexture: 4.05
+    - _OpacityTexture: 2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _TEXTUREENUM: 0
     - _TextureContrast: 1
-    - _TextureOffset: -0.1
+    - _TextureOffset: 0
     - _VertexColorVisualitation: 0
     - _XSpeedTexture: 0
     - _Xtilling: 1
