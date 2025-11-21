@@ -58,7 +58,7 @@ Material:
     - _Contrast: 1
     - _MainLightContrast: 1
     - _MainLightIntensity: 1
-    - _MainLightOffset: 0
+    - _MainLightOffset: -0.05
     - _Offset: 0
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -66,6 +66,6 @@ Material:
     - _SecondaryLightOffset: -0.52
     - _ShadowMovement: 0.2
     m_Colors:
-    - _ShadowColor: {r: 0.09554285, g: 0.17635448, b: 0.8037735, a: 1}
+    - _ShadowColor: {r: 0.09411766, g: 0.63598186, b: 0.8039216, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
