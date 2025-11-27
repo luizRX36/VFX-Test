@@ -98,6 +98,9 @@
         },
         {
             "m_Id": "7f8cd656887542d699d54a1e88ff434f"
+        },
+        {
+            "m_Id": "735ef4fa3fb94134b178c401194b0ccf"
         }
     ],
     "m_GroupDatas": [],
@@ -1269,6 +1272,61 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "735ef4fa3fb94134b178c401194b0ccf",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Santa Trinidad",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -365.5999755859375,
+            "y": 770.3999633789063,
+            "width": 213.5999755859375,
+            "height": 326.39996337890627
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "9e2217e914ae42df97c816c2d766c27c"
+        },
+        {
+            "m_Id": "892c37ffd46745cba5eb2cdaa1fa39de"
+        },
+        {
+            "m_Id": "be0fe365f71d456193a34d65ebab6d39"
+        },
+        {
+            "m_Id": "effdd0b51ad046799a34aeda28e105f2"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"643ab6c3dc8735f478081ea0e1a9da5d\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [
+        "66e4b9fb-90b3-4a1a-adf7-f939b6a8a42d",
+        "e35d8e5e-b476-4609-809b-019ca12f31fc",
+        "de883493-ceb2-443a-aa72-c758a22a1970"
+    ],
+    "m_PropertyIds": [
+        950236755,
+        -983265783,
+        -1301503447
+    ],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "77e5dd41d6b8490998259866317375b1",
     "m_Id": 0,
@@ -1362,6 +1420,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "892c37ffd46745cba5eb2cdaa1fa39de",
+    "m_Id": -983265783,
+    "m_DisplayName": "Contrast",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Contrast",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -1494,6 +1567,21 @@
     "m_Property": {
         "m_Id": "f6f0a102142a49ef9bbe0be1e4d065e7"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "9e2217e914ae42df97c816c2d766c27c",
+    "m_Id": 950236755,
+    "m_DisplayName": "Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -1969,6 +2057,21 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "A",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "be0fe365f71d456193a34d65ebab6d39",
+    "m_Id": -1301503447,
+    "m_DisplayName": "Input",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Input",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -2538,6 +2641,31 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "effdd0b51ad046799a34aeda28e105f2",
+    "m_Id": 1,
+    "m_DisplayName": "Out_Vector4",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "OutVector4",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
 }
 
 {
